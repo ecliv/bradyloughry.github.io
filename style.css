@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: ghostwhite;
+    color: slategray;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+}
+
+th {
+    font-size: 22px;
+}
+
+table, th, td {
+    border: 1px solid slategray;
+    padding: 25px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 0 0px 0;
+}
+
+.navbar a {
+    color: slategray;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.art-grid {
+    columns: 1;
+    column-gap: 20px;
+    padding: 20px;
+    max-width: 1100px;
+}
+
+.art-grid img {
+    width: min(500px, 100%);
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.art-page {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.tablecontainer {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portrait {
+    width: 100px;
+    height: 100px;
+}
+
+.socials {
+    font-size: 15px;
+    color: cadetblue;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
