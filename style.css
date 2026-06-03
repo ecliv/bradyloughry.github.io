@@ -82,3 +82,10 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
+.bottomtext {
+    color: gainsboro;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+}
