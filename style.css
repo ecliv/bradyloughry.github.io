@@ -25,13 +25,13 @@ body {
 
 h1 {
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0;
 }
 
 h2 {
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 30px;
 }
 
@@ -53,8 +53,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 0 32px;
 
     background: rgba(248, 248, 255, 0.96);
     backdrop-filter: blur(8px);
@@ -161,11 +159,9 @@ p {
 }
 
 .about-links a {
-    color: slategray;
+    color: blue;
     text-decoration: none;
-
     font-size: 15px;
-
     transition: opacity 0.2s ease;
 }
 
