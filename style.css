@@ -56,6 +56,18 @@ img {
     background: ghostwhite;
     border-bottom: 1px solid #ddd;
     z-index: 1000;
+    background: rgba(248, 248, 255, 0.95);
+    backdrop-filter: blur(6px);
+}
+
+.header h1 a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.header h1 a:hover {
+    opacity: 0.5;
 }
 
 .navbar {
@@ -87,6 +99,7 @@ img {
 }
 
 .top-piece {
+    max-width: 600px;
     padding-top: 80px;
     padding-bottom: 40px;
 }
